@@ -1,1 +1,1 @@
-# bangkit-backend
+# bangkit-capstone

@@ -1150,7 +1150,158 @@
         "lemak": 0.36,
         "protein": 1.6,
         "karbohidrat": 7.13
+      },
+      {
+        "id": 125,
+        "value": "1 mangkok",
+        "energi": 32,
+        "lemak": 0.36,
+        "protein": 1.58,
+        "karbohidrat": 7.06
+      },
+      {
+        "id": 126,
+        "value": "1 mangkok, dicincang atau diiris",
+        "energi": 32,
+        "lemak": 0.36,
+        "protein": 1.58,
+        "karbohidrat": 7.06
+      },
+      {
+        "id": 127,
+        "value": "1 utuh sedang (diameter 6,5 cm)",
+        "energi": 22,
+        "lemak": 0.25,
+        "protein": 1.08,
+        "karbohidrat": 4.82
+      },
+      {
+        "id": 128,
+        "value": "1 porsi (123 g)",
+        "energi": 22,
+        "lemak": 0.25,
+        "protein": 1.08,
+        "karbohidrat": 4.82
+      },
+      {
+        "id": 129,
+        "value": "100 gram",
+        "energi": 18 ,
+        "lemak": 0.2,
+        "protein": 0.88,
+        "karbohidrat": 3.92
+      },
+      {
+        "id": 130,
+        "value": "1 kecil utuh (diameter 6 cm)",
+        "energi": 16,
+        "lemak": 0.18,
+        "protein": 0.8,
+        "karbohidrat": 3.57
+      },
+      {
+        "id": 131,
+        "value": "1 irisan (1/4 tomat sedang)",
+        "energi": 6,
+        "lemak": 0.06,
+        "protein": 0.27,
+        "karbohidrat": 1.22
+      },
+      {
+        "id": 132,
+        "value": "1 irisan tebal/besar (tebal 1,25 cm)",
+        "energi": 5,
+        "lemak": 0.05,
+        "protein": 0.24,
+        "karbohidrat": 1.06
+      },
+      {
+        "id": 133,
+        "value": "1 irisan sedang (tebal 0.6 cm)",
+        "energi": 4,
+        "lemak": 0.04,
+        "protein": 0.18,
+        "karbohidrat": 0.78
+      },
+      {
+        "id": 134,
+        "value": "1 irisan tipis/kecil",
+        "energi": 3,
+        "lemak": 0.03,
+        "protein": 0.13,
+        "karbohidrat": 0.59
+      }
+    ]
+  },
+  {
+    "id": 24,
+    "nama": "apel",
+    "ukuran": [
+      {
+        "id": 135,
+        "value": "1 besar utuh (diameter 8,5 cm, sekitar 2 per 450 g)",
+        "energi": 110,
+        "lemak": 0.36,
+        "protein": 0.55,
+        "karbohidrat": 29.28
+      },
+      {
+        "id": 136,
+        "value": "1 porsi",
+        "energi": 80,
+        "lemak": 0.26,
+        "protein": 0.4,
+        "karbohidrat": 21.27
+      },
+      {
+        "id": 137,
+        "value": "1 sedang (diameter 7 cm, kira-kira 3 per 450 g)",
+        "energi": 72,
+        "lemak": 0.23,
+        "protein": 0.36,
+        "karbohidrat": 19.06
+      },
+      {
+        "id": 138,
+        "value": "1 mangkok, seperempat atau cincang",
+        "energi": 65,
+        "lemak": 0.21,
+        "protein": 0.32,
+        "karbohidrat": 17.26
+      },
+      {
+        "id": 139,
+        "value": "1 mangkok, irisan",
+        "energi": 57,
+        "lemak": 0.19,
+        "protein": 0.29,
+        "karbohidrat": 15.19
+      },
+      {
+        "id": 140,
+        "value": "1 kecil (diameter 6.5 cm, kira-kira 4 per 450 g)",
+        "energi": 55,
+        "lemak": 0.18,
+        "protein": 0.28,
+        "karbohidrat": 14.64
+      },
+      {
+        "id": 141,
+        "value": "100 gram",
+        "energi": 52,
+        "lemak": 0.17,
+        "protein": 0.26,
+        "karbohidrat": 13.81
+      },
+      {
+        "id": 142,
+        "value": "1 ons",
+        "energi": 15,
+        "lemak": 0.05,
+        "protein": 0.07,
+        "karbohidrat": 3.92
       }
     ]
   }
+  
 ]

@@ -1,0 +1,1142 @@
+[
+  {
+    "id": 1,
+    "nama": "ayam goreng",
+    "ukuran": [
+      {
+        "id": 1,
+        "value": "1 buah",
+        "energi": 391,
+        "lemak": 21.82,
+        "protein": 32.9,
+        "karbohidrat": 16.15
+      },
+      {
+        "id": 2,
+        "value": "1 porsi",
+        "energi": 781,
+        "lemak": 43.64,
+        "protein": 65.8,
+        "karbohidrat": 32.29
+      },
+      {
+        "id": 3,
+        "value": "100 gram",
+        "energi": 260,
+        "lemak": 14.45,
+        "protein": 21.93,
+        "karbohidrat": 10.76
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "nama": "tempe goreng",
+    "ukuran": [
+      {
+        "id": 4,
+        "value": "1 buah",
+        "energi": 34,
+        "lemak": 2.28,
+        "protein": 2,
+        "karbohidrat": 1.79
+      },
+      {
+        "id": 5,
+        "value": "1 porsi",
+        "energi": 192,
+        "lemak": 12.93,
+        "protein": 11.31,
+        "karbohidrat": 10.15
+      },
+      {
+        "id": 6,
+        "value": "100 gram",
+        "energi": 255,
+        "lemak": 15.21,
+        "protein": 13.31,
+        "karbohidrat": 11.94
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "nama": "nasi putih",
+    "ukuran": [
+      {
+        "id": 7,
+        "value": "1 porsi",
+        "energi": 135,
+        "lemak": 0.29,
+        "protein": 2.79,
+        "karbohidrat": 29.3
+      },
+      {
+        "id": 8,
+        "value": "100 gram",
+        "energi": 129,
+        "lemak": 0.28,
+        "protein": 2.66,
+        "karbohidrat": 27.9
+      },
+      {
+        "id": 9,
+        "value": "1 mangkok, masak",
+        "energi": 204,
+        "lemak": 0.44,
+        "protein": 4.2,
+        "karbohidrat": 44.08
+      },
+      {
+        "id": 10,
+        "value": "1 mangkok, kering, hasil",
+        "energi": 735,
+        "lemak": 1.6,
+        "protein": 15.16,
+        "karbohidrat": 159.03
+      },
+      {
+        "id": 11,
+        "value": "1 ons, kering, hasil",
+        "energi": 112,
+        "lemak": 0.24,
+        "protein": 2.31,
+        "karbohidrat": 24.27
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "nama": "tumis kangkung",
+    "ukuran": [
+      {
+        "id": 12,
+        "value": "1 mangkok",
+        "energi": 221,
+        "lemak": 18.72,
+        "protein": 5.5,
+        "karbohidrat": 8.58
+      },
+      {
+        "id": 13,
+        "value": "1 porsi",
+        "energi": 106,
+        "lemak": 9.4,
+        "protein": 2.76,
+        "karbohidrat": 4.31
+      },
+      {
+        "id": 14,
+        "value": "100 gram",
+        "energi": 98,
+        "lemak": 8.71,
+        "protein": 2.56,
+        "karbohidrat": 3.99
+      },
+      {
+        "id": 15,
+        "value": "1 ons",
+        "energi": 28,
+        "lemak": 2.47,
+        "protein": 0.72,
+        "karbohidrat": 1.13
+      }
+    ]
+  },
+  {
+    "id": 5,
+    "nama": "alpukat",
+    "ukuran": [
+      {
+        "id": 16,
+        "value": "1 mangkok, bubur",
+        "energi": 368,
+        "lemak": 33.72,
+        "protein": 4.6,
+        "karbohidrat": 19.62
+      },
+      {
+        "id": 17,
+        "value": "1 alpukat",
+        "energi": 322,
+        "lemak": 29.47,
+        "protein": 4.02,
+        "karbohidrat": 17.15
+      },
+      {
+        "id": 18,
+        "value": "1 mangkok, potong dadu",
+        "energi": 240,
+        "lemak": 21.99,
+        "protein": 3,
+        "karbohidrat": 12.8
+      },
+      {
+        "id": 19,
+        "value": "1 mangkok, irisan",
+        "energi": 234,
+        "lemak": 21.4,
+        "protein": 2.92,
+        "karbohidrat": 12.45
+      },
+      {
+        "id": 20,
+        "value": "100 gram",
+        "energi": 160,
+        "lemak": 14.66,
+        "protein": 2,
+        "karbohidrat": 8.53
+      },
+      {
+        "id": 21,
+        "value": "1 ons",
+        "energi": 45,
+        "lemak": 4.16,
+        "protein": 0.57,
+        "karbohidrat": 2.42
+      }
+    ]
+  },
+  {
+    "id": 6,
+    "nama": "pisang",
+    "ukuran": [
+      {
+        "id": 22,
+        "value": "1 mangkok, tumbuk",
+        "energi": 200,
+        "lemak": 0.74,
+        "protein": 2.45,
+        "karbohidrat": 51.39
+      },
+      {
+        "id": 23,
+        "value": "1 ekstra besar (23cm atau lebih panjang)",
+        "energi": 136,
+        "lemak": 0.5,
+        "protein": 1.66,
+        "karbohidrat": 34.72
+      },
+      {
+        "id": 24,
+        "value": "1 mangkok, irisan",
+        "energi": 134,
+        "lemak": 0.5,
+        "protein": 1.64,
+        "karbohidrat": 34.26
+      },
+      {
+        "id": 25,
+        "value": "1 besar (panjang 20 cm - 22.5 cm)",
+        "energi": 121,
+        "lemak": 0.45,
+        "protein": 1.48,
+        "karbohidrat": 31.06
+      },
+      {
+        "id": 26,
+        "value": "1 porsi",
+        "energi": 112,
+        "lemak": 0.42,
+        "protein": 1.37,
+        "karbohidrat": 38.78
+      },
+      {
+        "id": 27,
+        "value": "1 sedang (panjang 18 cm - 20 cm)",
+        "energi": 105,
+        "lemak": 0.39,
+        "protein": 1.29,
+        "karbohidrat": 26.95
+      },
+      {
+        "id": 28,
+        "value": "1 kecil (panjang 15 cm - 17,5 cm)",
+        "energi": 90,
+        "lemak": 0.33,
+        "protein": 1.1,
+        "karbohidrat": 23.07
+      },
+      {
+        "id": 29,
+        "value": "1 gram",
+        "energi": 89,
+        "lemak": 0.33,
+        "protein": 1.09,
+        "karbohidrat": 22.84
+      },
+      {
+        "id": 30,
+        "value": "1 ekstra kecil (panjang kurang dari 15 cm)",
+        "energi": 72,
+        "lemak": 0.27,
+        "protein": 0.88,
+        "karbohidrat": 18.5
+      },
+      {
+        "id": 31,
+        "value": "1 ons",
+        "energi": 25,
+        "lemak": 0.09,
+        "protein": 0.31,
+        "karbohidrat": 6.48
+      }
+    ]
+  },
+  {
+    "id": 7,
+    "nama": "pepaya",
+    "ukuran": [
+      {
+        "id": 32,
+        "value": "1 besar (diameter 14,5 cm x 8 cm)",
+        "energi": 148,
+        "lemak": 0.53,
+        "protein": 2.32,
+        "karbohidrat": 37.28
+      },
+      {
+        "id": 32,
+        "value": "1 sedang (panjang 13 cm x diameter 7,5 cm)",
+        "energi": 119,
+        "lemak": 0.43,
+        "protein": 1.85,
+        "karbohidrat": 29.82
+      },
+      {
+        "id": 33,
+        "value": "1 mangkok tumbuk",
+        "energi": 90,
+        "lemak": 0.32,
+        "protein": 1.4,
+        "karbohidrat": 22.56
+      },
+      {
+        "id": 34,
+        "value": "1 kecil (panjang 11 cm x diameter 7 cm)",
+        "energi": 59,
+        "lemak": 0.21,
+        "protein": 0.93,
+        "karbohidrat": 14.91
+      },
+      {
+        "id": 35,
+        "value": "1 mangkok, potong dadu",
+        "energi": 55,
+        "lemak": 0.2,
+        "protein": 0.85,
+        "karbohidrat": 13.73
+      },
+      {
+        "id": 36,
+        "value": "100 gram",
+        "energi": 39,
+        "lemak": 0.14,
+        "protein": 0.61,
+        "karbohidrat": 9.81
+      },
+      {
+        "id": 37,
+        "value": "1 ons",
+        "energi": 11,
+        "lemak": 0.04,
+        "protein": 0.17,
+        "karbohidrat": 2.78
+      }
+    ]
+  },
+  {
+    "id": 8,
+    "nama": "telur rebus",
+    "ukuran": [
+      {
+        "id": 38,
+        "value": "1 mangkok",
+        "energi": 209,
+        "lemak": 14.37,
+        "protein": 17.04,
+        "karbohidrat": 1.52
+      },
+      {
+        "id": 39,
+        "value": "100 gram",
+        "energi": 154,
+        "lemak": 10.57,
+        "protein": 12.53,
+        "karbohidrat": 1.12
+      },
+      {
+        "id": 40,
+        "value": "1 jumbo",
+        "energi": 100,
+        "lemak": 6.87,
+        "protein": 8.14,
+        "karbohidrat": 0.73
+      },
+      {
+        "id": 41,
+        "value": "1 ekstra besar",
+        "energi": 89,
+        "lemak": 6.13,
+        "protein": 7.27,
+        "karbohidrat": 0.65
+      },
+      {
+        "id": 42,
+        "value": "1 porsi (50 g)",
+        "energi": 77,
+        "lemak": 5.28,
+        "protein": 6.26,
+        "karbohidrat": 0.56
+      },
+      {
+        "id": 43,
+        "value": "1 besar",
+        "energi": 77,
+        "lemak": 5.28,
+        "protein": 6.26,
+        "karbohidrat": 0.56
+      },
+      {
+        "id": 44,
+        "value": "1 sedang",
+        "energi": 68,
+        "lemak": 4.65,
+        "protein": 5.51,
+        "karbohidrat": 0.49
+      },
+      {
+        "id": 45,
+        "value": "1 kecil",
+        "energi": 57,
+        "lemak": 3.91,
+        "protein": 4.64,
+        "karbohidrat": 0.41
+      },
+      {
+        "id": 46,
+        "value": "1 ons",
+        "energi": 44,
+        "lemak": 3,
+        "protein": 3.55,
+        "karbohidrat": 0.32
+      },
+      {
+        "id": 47,
+        "value": "1 iris",
+        "energi": 8,
+        "lemak": 0.53,
+        "protein": 0.63,
+        "karbohidrat": 0.06
+      }
+    ]
+  },
+  {
+    "id": 9,
+    "nama": "telur goreng",
+    "ukuran": [
+      {
+        "id": 48,
+        "value": "1 mangkok",
+        "energi": 264,
+        "lemak": 19.98,
+        "protein": 18.44,
+        "karbohidrat": 1.27
+      },
+      {
+        "id": 49,
+        "value": "100 gram",
+        "energi": 194,
+        "lemak": 14.69,
+        "protein": 13.56,
+        "karbohidrat": 0.93
+      },
+      {
+        "id": 50,
+        "value": "1 jumbo",
+        "energi": 111,
+        "lemak": 8.37,
+        "protein": 7.73,
+        "karbohidrat": 0.53
+      },
+      {
+        "id": 51,
+        "value": "1 ekstra besar",
+        "energi": 101,
+        "lemak": 7.64,
+        "protein": 7.05,
+        "karbohidrat": 0.48
+      },
+      {
+        "id": 52,
+        "value": "1 telur3",
+        "energi": 89,
+        "lemak": 6.76,
+        "protein": 6.24,
+        "karbohidrat": 0.43
+      },
+      {
+        "id": 53,
+        "value": "1 porsi (46 g)",
+        "energi": 69,
+        "lemak": 6.76,
+        "protein": 6.24,
+        "karbohidrat": 0.43
+      },
+      {
+        "id": 54,
+        "value": "1 besar",
+        "energi": 89,
+        "lemak": 6.76,
+        "protein": 6.24,
+        "karbohidrat": 0.43
+      },
+      {
+        "id": 55,
+        "value": "1 sedang",
+        "energi": 78,
+        "lemak": 5.88,
+        "protein": 5.42,
+        "karbohidrat": 0.37
+      },
+      {
+        "id": 56,
+        "value": "1 kecil",
+        "energi": 68,
+        "lemak": 5.14,
+        "protein": 4.75,
+        "karbohidrat": 0.33
+      },
+      {
+        "id": 57,
+        "value": "1 ons",
+        "energi": 55,
+        "lemak": 4.16,
+        "protein": 3.84,
+        "karbohidrat": 0.26
+      }
+    ]
+  },
+  {
+    "id": 10,
+    "nama": "tahu goreng",
+    "ukuran": [
+      {
+        "id": 58,
+        "value": "1 buah",
+        "energi": 35,
+        "lemak": 2.62,
+        "protein": 2.23,
+        "karbohidrat": 1.36
+      },
+      {
+        "id": 59,
+        "value": "1 ons",
+        "energi": 77,
+        "lemak": 5.72,
+        "protein": 4.87,
+        "karbohidrat": 2.97
+      },
+      {
+        "id": 60,
+        "value": "100 gram",
+        "energi": 271,
+        "lemak": 20.81,
+        "protein": 17.19,
+        "karbohidrat": 10.49
+      }
+    ]
+  },
+  {
+    "id": 11,
+    "nama": "bakwan",
+    "ukuran": [
+      {
+        "id": 61,
+        "value": "1 porsi (120 g)",
+        "energi": 274,
+        "lemak": 23.18,
+        "protein": 3.97,
+        "karbohidrat": 13.47
+      },
+      {
+        "id": 62,
+        "value": "100 gram",
+        "energi": 228,
+        "lemak": 19.31,
+        "protein": 3.31,
+        "karbohidrat": 11.23
+      },
+      {
+        "id": 63,
+        "value": "1 potong",
+        "energi": 137,
+        "lemak": 11.59,
+        "protein": 1.99,
+        "karbohidrat": 6.74
+      },
+      {
+        "id": 64,
+        "value": "1 ons",
+        "energi": 65,
+        "lemak": 5.48,
+        "protein": 0.94,
+        "karbohidrat": 3.18
+      }
+    ]
+  },
+  {
+    "id": 12,
+    "nama": "bakso",
+    "ukuran": [
+      {
+        "id": 65,
+        "value": "1 mangkok",
+        "energi": 283,
+        "lemak": 18.43,
+        "protein": 17.37,
+        "karbohidrat": 10.61
+      },
+      {
+        "id": 66,
+        "value": "1 porsi (108 g)",
+        "energi": 218,
+        "lemak": 14.22,
+        "protein": 13.4,
+        "karbohidrat": 8.18
+      },
+      {
+        "id": 67,
+        "value": "100 gram",
+        "energi": 202,
+        "lemak": 13.16,
+        "protein": 12.41,
+        "karbohidrat": 7.58
+      },
+      {
+        "id": 68,
+        "value": "1 besar",
+        "energi": 85,
+        "lemak": 5.53,
+        "protein": 5.21,
+        "karbohidrat": 3.18
+      },
+      {
+        "id": 69,
+        "value": "1 ons",
+        "energi": 57,
+        "lemak": 3.73,
+        "protein": 3.52,
+        "karbohidrat": 2.51
+      },
+      {
+        "id": 70,
+        "value": "1 sedang",
+        "energi": 57,
+        "lemak": 3.69,
+        "protein": 3.47,
+        "karbohidrat": 2.12
+      },
+      {
+        "id": 71,
+        "value": "1 ons, mentah (hasil setelah masak)",
+        "energi": 44,
+        "lemak": 2.9,
+        "protein": 2.73,
+        "karbohidrat": 1.67
+      },
+      {
+        "id": 72,
+        "value": "1 kecil",
+        "energi": 28,
+        "lemak": 1.84,
+        "protein": 1.74,
+        "karbohidrat": 1.06
+      }
+    ]
+  },
+  {
+    "id": 13,
+    "nama": "soto ayam",
+    "ukuran": [
+      {
+        "id": 73,
+        "value": "1 porsi (241 g)",
+        "energi": 312,
+        "lemak": 14.92,
+        "protein": 24.01,
+        "karbohidrat": 19.55
+      },
+      {
+        "id": 74,
+        "value": "1 mangkok",
+        "energi": 312,
+        "lemak": 14.92,
+        "protein": 24.01,
+        "karbohidrat": 19.55
+      },
+      {
+        "id": 75,
+        "value": "100 gram",
+        "energi": 130,
+        "lemak": 6.19,
+        "protein": 9.96,
+        "karbohidrat": 8.11
+      },
+      {
+        "id": 76,
+        "value": "1 ons",
+        "energi": 37,
+        "lemak": 1.76,
+        "protein": 2.82,
+        "karbohidrat": 2.3
+      }
+    ]
+  },
+  {
+    "id": 14,
+    "nama": "sup ayam",
+    "ukuran": [
+      {
+        "id": 77,
+        "value": "1 porsi (241 g)",
+        "energi": 75,
+        "lemak": 2.46,
+        "protein": 4.05,
+        "karbohidrat": 9.35
+      },
+      {
+        "id": 78,
+        "value": "1 mangkok",
+        "energi": 75,
+        "lemak": 2.46,
+        "protein": 4.05,
+        "karbohidrat": 9.35
+      },
+      {
+        "id": 79,
+        "value": "100 gram",
+        "energi": 31,
+        "lemak": 1.02,
+        "protein": 1.68,
+        "karbohidrat": 3.88
+      }
+    ]
+  },
+  {
+    "id": 15,
+    "nama": "sayur bayam",
+    "ukuran": [
+      {
+        "id": 78,
+        "value": "1 mangkok",
+        "energi": 86,
+        "lemak": 0.89,
+        "protein": 4.29,
+        "karbohidrat": 18.34
+      },
+      {
+        "id": 79,
+        "value": "1 porsi (120 g)",
+        "energi": 43,
+        "lemak": 0.44,
+        "protein": 2.14,
+        "karbohidrat": 9.17
+      },
+      {
+        "id": 80,
+        "value": "100 gram",
+        "energi": 36,
+        "lemak": 0.37,
+        "protein": 1.79,
+        "karbohidrat": 7.64
+      }
+    ]
+  },
+  {
+    "id": 16,
+    "nama": "ikan mujair goreng",
+    "ukuran": [
+      {
+        "id": 81,
+        "value": "1 mangkok, masak",
+        "energi": 337,
+        "lemak": 13.85,
+        "protein": 49.1,
+        "karbohidrat": 4.43
+      },
+      {
+        "id": 82,
+        "value": "1 porsi (150 g)",
+        "energi": 253,
+        "lemak": 10.38,
+        "protein": 36.82,
+        "karbohidrat": 3.32
+      },
+      {
+        "id": 83,
+        "value": "100 gram",
+        "energi": 169,
+        "lemak": 6.92,
+        "protein": 24.55,
+        "karbohidrat": 2.22
+      }
+    ]
+  },
+  {
+    "id": 17,
+    "nama": "rendang",
+    "ukuran": [
+      {
+        "id": 84,
+        "value": "1 porsi (240 g)",
+        "energi": 468,
+        "lemak": 26.57,
+        "protein": 47.23,
+        "karbohidrat": 10.78
+      },
+      {
+        "id": 85,
+        "value": "1 mangkok",
+        "energi": 468,
+        "lemak": 26.57,
+        "protein": 47.23,
+        "karbohidrat": 10.78
+      },
+      {
+        "id": 86,
+        "value": "100 gram",
+        "energi": 195,
+        "lemak": 11.07,
+        "protein": 19.68,
+        "karbohidrat": 4.49
+      },
+      {
+        "id": 87,
+        "value": "1 ons",
+        "energi": 55,
+        "lemak": 3.14,
+        "protein": 5.58,
+        "karbohidrat": 1.27
+      }
+    ]
+  },
+  {
+    "id": 18,
+    "nama": "sate ayam",
+    "ukuran": [
+      {
+        "id": 88,
+        "value": "100 gram",
+        "energi": 141,
+        "lemak": 2.22,
+        "protein": 2.93,
+        "karbohidrat": 0.73
+      },
+      {
+        "id": 89,
+        "value": "1 porsi (45 g)",
+        "energi": 101,
+        "lemak": 6.67,
+        "protein": 8.79,
+        "karbohidrat": 2.19
+      },
+      {
+        "id": 90,
+        "value": "1 ons",
+        "energi": 64,
+        "lemak": 4.2,
+        "protein": 5.54,
+        "karbohidrat": 1.38
+      },
+      {
+        "id": 91,
+        "value": "1 tusuk",
+        "energi": 34,
+        "lemak": 2.22,
+        "protein": 2.93,
+        "karbohidrat": 0.73
+      }
+    ]
+  },
+  {
+    "id": 19,
+    "nama": "rawon",
+    "ukuran": [
+      {
+        "id": 92,
+        "value": "1 mangkok",
+        "energi": 288,
+        "lemak": 17.84,
+        "protein": 23.13,
+        "karbohidrat": 8.38
+      },
+      {
+        "id": 93,
+        "value": "1 porsi (241 g)",
+        "energi": 288,
+        "lemak": 17.84,
+        "protein": 23.13,
+        "karbohidrat": 8.38
+      },
+      {
+        "id": 94,
+        "value": "100 gram",
+        "energi": 499,
+        "lemak": 7.4,
+        "protein": 9.6,
+        "karbohidrat": 3.48
+      }
+    ]
+  },
+  {
+    "id": 20,
+    "nama": "brokoli",
+    "ukuran": [
+      {
+        "id": 95,
+        "value": "1 ikat",
+        "energi": 207,
+        "lemak": 2.25,
+        "protein": 17.15,
+        "karbohidrat": 40.37
+      },
+      {
+        "id": 96,
+        "value": "1 pound",
+        "energi": 154,
+        "lemak": 1.68,
+        "protein": 12.79,
+        "karbohidrat": 30.12
+      },
+      {
+        "id": 97,
+        "value": "1 tangkai",
+        "energi": 51,
+        "lemak": 0.56,
+        "protein": 4.26,
+        "karbohidrat": 10.03
+      },
+      {
+        "id": 98,
+        "value": "1 porsi",
+        "energi": 50,
+        "lemak": 0.55,
+        "protein": 4.17,
+        "karbohidrat": 9.83
+      },
+      {
+        "id": 99,
+        "value": "100 gram",
+        "energi": 34,
+        "lemak": 0.37,
+        "protein": 2.82,
+        "karbohidrat": 6.64
+      },
+      {
+        "id": 100,
+        "value": "1 mangkok, dicincang",
+        "energi": 31,
+        "lemak": 0.34,
+        "protein": 2.57,
+        "karbohidrat": 6.04
+      },
+      {
+        "id": 101,
+        "value": "1 tusuk (sekitar 13 cm panjang)",
+        "energi": 11,
+        "lemak": 0.11,
+        "protein": 0.87,
+        "karbohidrat": 2.06
+      },
+      {
+        "id": 102,
+        "value": "1 ons",
+        "energi": 10,
+        "lemak": 0.1,
+        "protein": 0.8,
+        "karbohidrat": 1.88
+      }
+    ]
+  },
+  {
+    "id": 21,
+    "nama": "wortel",
+    "ukuran": [
+      {
+        "id": 103,
+        "value": "1 pound",
+        "energi": 186,
+        "lemak": 1.09,
+        "protein": 4.22,
+        "karbohidrat": 43.45
+      },
+      {
+        "id": 104,
+        "value": "1 mangkok, dicincang",
+        "energi": 52,
+        "lemak": 0.31,
+        "protein": 1.19,
+        "karbohidrat": 12.26
+      },
+      {
+        "id": 105,
+        "value": "1 mangkok, strip atau tipis",
+        "energi": 50,
+        "lemak": 0.29,
+        "protein": 1.13,
+        "karbohidrat": 11.69
+      },
+      {
+        "id": 106,
+        "value": "1 mangkok, parutan",
+        "energi": 45,
+        "lemak": 0.26,
+        "protein": 1.02,
+        "karbohidrat": 10.54
+      },
+      {
+        "id": 107,
+        "value": "100 gram",
+        "energi": 41,
+        "lemak": 0.24,
+        "protein": 0.93,
+        "karbohidrat": 9.58
+      },
+      {
+        "id": 108,
+        "value": "1 wortel (19 cm)",
+        "energi": 30,
+        "lemak": 0.17,
+        "protein": 0.67,
+        "karbohidrat": 6.9
+      },
+      {
+        "id": 109,
+        "value": "1 besar (panjang 18,5 cm - 22 cm)",
+        "energi": 30,
+        "lemak": 0.17,
+        "protein": 0.67,
+        "karbohidrat": 6.9
+      },
+      {
+        "id": 110,
+        "value": "1 sedang",
+        "energi": 25,
+        "lemak": 0.15,
+        "protein": 0.57,
+        "karbohidrat": 5.84
+      },
+      {
+        "id": 111,
+        "value": "1 kecil (panjang 14 cm)",
+        "energi": 20,
+        "lemak": 0.12,
+        "protein": 0.46,
+        "karbohidrat": 4.79
+      },
+      {
+        "id": 112,
+        "value": "1 ons",
+        "energi": 12,
+        "lemak": 0.07,
+        "protein": 0.26,
+        "karbohidrat": 2.72
+      },
+      {
+        "id": 113,
+        "value": "1 untai, besar (panjang 7.5 cm)",
+        "energi": 3,
+        "lemak": 0.02,
+        "protein": 0.07,
+        "karbohidrat": 0.67
+      },
+      {
+        "id": 114,
+        "value": "1 untai, sedang",
+        "energi": 7,
+        "lemak": 0.01,
+        "protein": 0.04,
+        "karbohidrat": 0.38
+      },
+      {
+        "id": 115,
+        "value": "1 iris",
+        "energi": 5,
+        "lemak": 0.01,
+        "protein": 0.03,
+        "karbohidrat": 0.29
+      },
+      {
+        "id": 116,
+        "value": "1 untai, tipis",
+        "energi": 1,
+        "lemak": 0,
+        "protein": 0.02,
+        "karbohidrat": 0.19
+      }
+    ]
+  },
+  {
+    "id": 22,
+    "nama": "kentang",
+    "ukuran": [
+      {
+        "id": 117,
+        "value": "1 pound",
+        "energi": 349,
+        "lemak": 0.41,
+        "protein": 9.16,
+        "karbohidrat": 79.24
+      },
+      {
+        "id": 118,
+        "value": "1 besar (diameter 7,5 cm - 10.5 cm)",
+        "energi": 284,
+        "lemak": 0.33,
+        "protein": 7.45,
+        "karbohidrat": 64.46
+      },
+      {
+        "id": 119,
+        "value": "1 sedang (diameter 5.5 cm - 8 cm)",
+        "energi": 164,
+        "lemak": 0.19,
+        "protein": 4.3,
+        "karbohidrat": 37.21
+      },
+      {
+        "id": 120,
+        "value": "1 kecil (diameter 4.5 cm - 6.5 cm)",
+        "energi": 131,
+        "lemak": 0.15,
+        "protein": 3.43,
+        "karbohidrat": 29.7
+      },
+      {
+        "id": 121,
+        "value": "100 gram",
+        "energi": 77,
+        "lemak": 0.09,
+        "protein": 2.02,
+        "karbohidrat": 17.47
+      },
+      {
+        "id": 122,
+        "value": "1/2 mangkok, potong dadu",
+        "energi": 58,
+        "lemak": 0.07,
+        "protein": 1.52,
+        "karbohidrat": 13.1
+      },
+      {
+        "id": 123,
+        "value": "1 ons",
+        "energi": 22,
+        "lemak": 0.03,
+        "protein": 0.57,
+        "karbohidrat": 4.95
+      }
+    ]
+  }
+]

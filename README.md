@@ -1,6 +1,6 @@
 # Bangkit-Capstone
 
-## This is progress from "hoper mor"'s project capstone
+## This is progress from "hoper mor"'s capstone project
 Firstly, let us introduce our team. Our team called "hoper mor". precipitating "hoper mor" because we create applications that will be devoted to mothers and baby for the prevention of stunting.
 This project is intended to prevent stunting early, which starts from pregnant mothers to babies under 2 years.
 This repository for cloud computing and machine learning path of our team, for android path have different repository because they need more space, so, here we go.

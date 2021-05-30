@@ -5,7 +5,7 @@ import numpy as np
 import cv2
 
 
-class_name = './data/coco.names'
+class_name = './data/obj.names'
 num_classes = 7
 model_size = (416, 416,3)
 maxi_output_size = 40

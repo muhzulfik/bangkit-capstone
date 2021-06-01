@@ -9,8 +9,8 @@ from yolov3.models import YoloV3
 
 classes_data = './labels/food.names'
 model_path = './model/yolov3_fix.tf'
-size = 416                      # size images are resized to for model
-datasets = 7                # number of classes in model
+size = 416
+datasets = 7                # number of datasets in your model
 
 yolo = YoloV3(classes=datasets)
 yolo.load_weights(model_path).expect_partial()

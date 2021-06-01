@@ -24,7 +24,7 @@ from tensorflow.keras.losses import (
 yolo_max_boxes = 100
 yolo_iou_threshold = 0.5
 yolo_score_threshold = 0.5
-# customize your model through the following parameters
+
 flags.DEFINE_integer('yolo_max_boxes', 8, 'maximum number of detections at one time')
 flags.DEFINE_float('yolo_iou_threshold', 0.5, 'iou threshold')
 flags.DEFINE_float('yolo_score_threshold', 0.5, 'score threshold')
@@ -38,7 +38,7 @@ def DarknetConv(x, filters, size, strides=1, batch_norm=True):
     if strides == 1:
         padding = 'same'
     else:
-        x = ZeroPadding2D(((1, 0), (1, 0)))(x)  # top left half-padding
+        x = ZeroPadding2D(((1, 0), (1, 0)))(x)
         padding = 'valid'
     x = Conv2D(filters=filters, kernel_size=size,
                strides=strides, padding=padding,
@@ -68,8 +68,8 @@ def Darknet(name=None):
     x = inputs = Input([None, None, 3])
     x = DarknetConv(x, 32, 3)
     x = DarknetBlock(x, 64, 1)
-    x = DarknetBlock(x, 128, 2)  # skip connection
-    x = x_36 = DarknetBlock(x, 256, 8)  # skip connection
+    x = DarknetBlock(x, 128, 2)
+    x = x_36 = DarknetBlock(x, 256, 8)
     x = x_61 = DarknetBlock(x, 512, 8)
     x = DarknetBlock(x, 1024, 4)
     return tf.keras.Model(inputs, (x_36, x_61, x), name=name)
@@ -81,7 +81,6 @@ def YoloConv(filters, name=None):
             inputs = Input(x_in[0].shape[1:]), Input(x_in[1].shape[1:])
             x, x_skip = inputs
 
-            # concat with skip connection
             x = DarknetConv(x, filters, 1)
             x = UpSampling2D(2)(x)
             x = Concatenate()([x, x_skip])
@@ -109,7 +108,6 @@ def YoloOutput(filters, anchors, classes, name=None):
 
 
 def yolo_boxes(pred, anchors, classes):
-    # pred: (batch_size, grid, grid, anchors, (x, y, w, h, obj, ...classes))
     grid_size = tf.shape(pred)[1]
     box_xy, box_wh, objectness, class_probs = tf.split(
         pred, (2, 2, 1, classes), axis=-1)
@@ -117,11 +115,10 @@ def yolo_boxes(pred, anchors, classes):
     box_xy = tf.sigmoid(box_xy)
     objectness = tf.sigmoid(objectness)
     class_probs = tf.sigmoid(class_probs)
-    pred_box = tf.concat((box_xy, box_wh), axis=-1)  # original xywh for loss
+    pred_box = tf.concat((box_xy, box_wh), axis=-1)
 
-    # !!! grid[x][y] == (y, x)
     grid = tf.meshgrid(tf.range(grid_size), tf.range(grid_size))
-    grid = tf.expand_dims(tf.stack(grid, axis=-1), axis=2)  # [gx, gy, 1, 2]
+    grid = tf.expand_dims(tf.stack(grid, axis=-1), axis=2)
 
     box_xy = (box_xy + tf.cast(grid, tf.float32)) / \
         tf.cast(grid_size, tf.float32)
@@ -135,7 +132,6 @@ def yolo_boxes(pred, anchors, classes):
 
 
 def yolo_nms(outputs, anchors, masks, classes):
-    # boxes, conf, type
     b, c, t = [], [], []
 
     for o in outputs:

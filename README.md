@@ -14,7 +14,7 @@ pip install -r requirements.txt
 # Saving your yolov3 weights as a TensorFlow model.
 python weights_to_tf.py
 
-#run the Flask app on port 5000.
+# run the Flask app on port 5000.
 python main.py
 
 # custom your weights and classes in main.py

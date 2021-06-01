@@ -15,7 +15,7 @@ pip install -r requirements.txt
 python weights_to_tf.py
 
 #run the Flask app on port 5000.
-python app.py
+python main.py
 
 # custom your weights and classes in main.py
 classes_data = './labels/food.names'

@@ -28,8 +28,10 @@ datasets = 7                # number of classes in model
 - deploy flask app in VM/cloud computing
 # MACHINE LEARNING
 ## Training custom dataset
-- training.ipynb
+our team custom our dataset, so, we need this files to training
+- training_custom_dataset.ipynb
 - training.py
+- yolov3.cfg
 
 ## Detection
 all file at folder named "detection" are files that can detection yolov3, input as jpg and output as image that have boxed by detection from training, 

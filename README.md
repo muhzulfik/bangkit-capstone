@@ -28,13 +28,13 @@ datasets = 7                # number of classes in model
 - deploy flask app in VM/cloud computing
 # MACHINE LEARNING
 We use YOLO-v3 to detect food. We detect 7 classes, they are:
-1.nasi putih
-2.telur rebus
-3.ayam goreng
-4.tumis kangkung
-5.alpukat
-6.pisang
-7.pepaya
+1. nasi putih
+2. telur rebus
+3. ayam goreng
+4. tumis kangkung
+5. alpukat
+6. pisang
+7. pepaya
 ## Training custom dataset
 our team custom our dataset, so, we need this files to training
 - training_custom_dataset.ipynb

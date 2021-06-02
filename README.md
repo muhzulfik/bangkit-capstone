@@ -32,5 +32,5 @@ datasets = 7                # number of classes in model
 - training.py
 
 ## Detection
-all file at folder named "detection" are files that can detection yolov3, input as jpg and output as image that have boxed by detection from training /n
+all file at folder named "detection" are files that can detection yolov3, input as jpg and output as image that have boxed by detection from training, 
 need files cfg and weights by training 

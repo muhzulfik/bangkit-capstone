@@ -76,17 +76,18 @@ def get_img():
 
     conn = mysql.connect()
     cur = conn.cursor(pymysql.cursors.DictCursor)
-    food = []
+    foods = []
     for i in resp:
         cur.execute('SELECT * FROM makanan WHERE nama_makanan="{}";'.format(i['class']))
         exc = cur.fetchall()
-        for index in range(len(exc)):
-            cur.execute('SELECT * FROM nutrisi WHERE id_makanan={};'.format(exc[index]["id_makanan"]))
+        if(len(exc) > 0):
+            food = exc[0]
+            cur.execute('SELECT * FROM nutrisi WHERE id_makanan={};'.format(food["id_makanan"]))
             ukuran = cur.fetchall()
-            exc[index]['ukuran'] = ukuran
-        food.append(exc)
+            food['ukuran'] = ukuran
+            foods.append(food)
 
-    return jsonify(food)
+    return jsonify(foods)
 
 @app.route('/resep', methods=['GET'])
 def resep():
